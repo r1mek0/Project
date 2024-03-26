@@ -12,7 +12,7 @@
 # print("Kate bank ", kate.money, "$")
 
 import random
-class Student:
+class Pets:
     def __init__(self, name):
         self.name = name
         self.gladness = 50
@@ -62,8 +62,8 @@ class Student:
         self.end_of_day()
         self.is_alive()
 
-catkate = Student(name="Cat Kate")
-dogartem = Student(name="Dog Artem")
+catkate = Pets(name="Cat Kate")
+dogartem = Pets(name="Dog Artem")
 for day in range(365):
     if catkate.alive == False:
         break
